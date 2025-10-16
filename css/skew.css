@@ -40,3 +40,7 @@ Angles are written in deg (degrees). */
     .child-5 {
       transform: skew(20deg, -20deg);
     }
+
+    .child-6 {
+      transform: skew(40deg,-50deg);
+    }

@@ -17,4 +17,5 @@ Value ranges from 0.0 to 1.0:
 
 .content-img > img:hover {
     opacity: 1;
+    cursor: grab;
 }

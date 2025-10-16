@@ -1,4 +1,0 @@
-heyy
-
-
-# full-stack-developer

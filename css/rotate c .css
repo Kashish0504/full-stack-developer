@@ -15,7 +15,7 @@ Negative angle → counterclockwise rotation. */
  .box {
     width: 150px;
     height: 150px;
-    background: blue;
+    background: rgb(18, 226, 136);
     color: antiquewhite;
  }
 

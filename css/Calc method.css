@@ -10,36 +10,36 @@ Useful when you want dynamic sizing (mixing %, px, em, etc.). */
 
 :root {
     --width: 100px;
-    --width-1: 100%;
+    --width-1: 10%;
     --height: 100px;
     --height-1: 100px;
-    --red: red;
-    --blue: blue;
-    --gray: gray;
+    --red: rgb(20, 19, 19);
+    --blue: rgb(144, 247, 252);
+    --gray: rgb(212, 59, 187);
 }
 
 .container {
     border: 1px solid gray;
     width: 100px;
     height: 150px;
-    background-color: blue;
+    background-color: rgb(123, 123, 240);
 }
 
 .container_1 {
-    border: 1px solid green;
-    background-color: purple;
+    border: 1px solid rgb(134, 227, 120);
+    background-color: rgb(218, 66, 218);
     width: calc(var(--width-1) - var(--width));
     height: calc(var(--height-1) + var(--height));
 }
 
-.btn-r {
-    color: var(--red);
-    background: var(--gray);
-    border: none;
-}
-
 .btn-b {
     color: var(--blue);
+    background: var(--gray);
+    border: none;
+
+}
+.btn-r {
+    color: var(--red);
     background: var(--gray);
     border: none;
 }

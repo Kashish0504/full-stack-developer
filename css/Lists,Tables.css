@@ -26,7 +26,7 @@ nth-child() → style alternate rows.
       display: flex;
       justify-content: space-around;
       margin: 70px;
-      background-color: #8fb347;
+      
     }
 
     /* LIST STYLING */
@@ -39,7 +39,7 @@ nth-child() → style alternate rows.
     }
     .list-section h2 {
       text-align: center;
-      color: rgb(141, 10, 10);
+      
     }
     ul {
       list-style-type: circle;
